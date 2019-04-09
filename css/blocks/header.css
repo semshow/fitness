@@ -1,0 +1,22 @@
+.header {
+  min-width: 100vh;
+  min-height: 77px;
+  background-color: #131415;
+}
+
+.header__logo {
+  width: 33.33%;
+  height: 100%;
+}
+
+.header__logo-text {
+    font-family: 'gorafree';
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #f89513;
+    text-transform: uppercase;
+}

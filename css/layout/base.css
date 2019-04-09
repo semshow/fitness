@@ -1,0 +1,12 @@
+.wrapper {
+  overflow: hidden;
+  min-width: 1104px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+}
