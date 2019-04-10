@@ -3,10 +3,17 @@
   min-width: 1104px;
 }
 
-html {
+.container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+* {
   box-sizing: border-box;
 }
 
 ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
 }
