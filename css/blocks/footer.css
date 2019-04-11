@@ -1,0 +1,106 @@
+.footer {
+  width: 100%;
+  min-height: 77px;
+  background-color: #131415;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  padding-top: 14px;
+  width: 240px;
+  font-family: 'Open__sans', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__logo {
+  width: 159px;
+}
+
+.footer__logo-link {
+  font-family: 'gorafree', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.8px;
+  color: #f89513;
+  text-decoration: none;
+}
+
+.footer__social-title {
+  font-family: 'Open__sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.footer__social-list {
+  font-size: 0;
+}
+
+.footer__social-item {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.footer__social-item:hover {
+  background-color: #f89513;
+}
+
+.footer__social-item:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.footer__social--vk:before {
+  width: 12px;
+  height: 7px;
+  background: url(../../img/css_sprites.png) -99px -10px no-repeat;
+}
+
+.footer__social--fb:before {
+  width: 6px;
+  height: 13px;
+  background: url(../../img/css_sprites.png) -10px -10px no-repeat;
+}
+
+.footer__social--google:before {
+  width: 15px;
+  height: 9px;
+  background: url(../../img/css_sprites.png) -131px -10px no-repeat;
+}
+
+.footer__social--twitter:before {
+  width: 11px;
+  height: 9px;
+  background: url(../../img/css_sprites.png) -36px -10px no-repeat;
+}
+
+.footer__social--mail:before {
+  width: 12px;
+  height: 9px;
+  background: url(../../img/css_sprites.png) -67px -10px no-repeat;
+}
