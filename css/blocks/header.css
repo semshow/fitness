@@ -100,6 +100,7 @@
 .header__contacts {
   min-width: 170px;
   text-align: right;
+  position: relative;
 }
 
 .header__phone {
@@ -121,69 +122,54 @@
   color: rgba(248, 149, 19, 0.7);
 }
 
-
-/* 
-.bg-fb {
-  width: 6px; height: 13px;
-  background: url('css_sprites.png') -10px -10px;
+.header__schedule-block {
+  padding-top: 20px;
+  padding-left: 19px;
+  min-height: 70px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
+  background-image: linear-gradient(to top, #ffffff, #ffffff);
+  position: absolute;
+  top: 63px;
+  width: 165px;
+  font-family: 'Open__sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #221f1f;
+  text-align: left;
+  display: none;
+}
+.header__schedule-block:before {
+  top: -20px;
+  left: -1px;
+  content: '';
+  display: block;
+  width: 165px;
+  height: 20px;
+  position: absolute;
 }
 
-x
-.bg-feed_icon {
-  width: 20px; height: 18px;
-  background: url('css_sprites.png') -244px -10px;
+.header__schedule-block:after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: #ffffff;
+  position: absolute;
+  top: -10px;
+  right: 5px;
 }
 
-x
-.bg-flower {
-  width: 27px; height: 31px;
-  background: url('css_sprites.png') -284px -10px;
+.header__schedule-link:hover .header__schedule-block {
+  display: block;
 }
 
-x
-.bg-google {
-  width: 15px; height: 9px;
-  background: url('css_sprites.png') -131px -10px;
+.header__schedule-timetable {
+  color: #f89513;
+  font-weight: bold;
 }
 
-x
-.bg-mail {
-  width: 12px; height: 9px;
-  background: url('css_sprites.png') -67px -10px;
-}
-
-x
-.bg-main_icon {
-  width: 19px; height: 14px;
-  background: url('css_sprites.png') -166px -10px;
-}
-
-x
-.bg-mark_as_favorite_star {
-  width: 32px; height: 32px;
-  background: url('css_sprites.png') -379px -10px;
-}
-
-x
-.bg-painter_palette {
-  width: 28px; height: 29px;
-  background: url('css_sprites.png') -331px -10px;
-}
-
-x
-.bg-service_icon {
-  width: 19px; height: 14px;
-  background: url('css_sprites.png') -205px -10px;
-}
-
-x
-.bg-twitter {
-  width: 11px; height: 9px;
-  background: url('css_sprites.png') -36px -10px;
-}
-
-x
-.bg-vk {
-  width: 12px; height: 7px;
-  background: url('css_sprites.png') -99px -10px;
-}  */
