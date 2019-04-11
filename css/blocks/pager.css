@@ -39,12 +39,16 @@
   margin-right: 10px;
 }
 
+.pager__item:hover {
+  color: #f89513;
+}
+
 .pager__item-active {
   width: 25px;
   height: 25px;
   border-radius: 3px;
   background-color: #27273e;
-  color: #ffffff;
+  color: #f89513;
   text-align: center;
   line-height: 25px;
   margin-right: 10px;

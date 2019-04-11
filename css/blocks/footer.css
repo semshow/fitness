@@ -8,13 +8,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 77px;
 }
 
 .footer__copyright {
-  padding-top: 14px;
-  width: 240px;
+  width: 250px;
   font-family: 'Open__sans', sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 14px;
   font-style: normal;
   line-height: 1.29;
@@ -22,9 +22,14 @@
   color: #ffffff;
 }
 
-.footer__logo {
-  width: 159px;
+.footer__copyright-bold {
+  font-weight: bold;
 }
+
+.footer__logo {
+  width: 300px;
+}
+
 
 .footer__logo-link {
   font-family: 'gorafree', sans-serif;

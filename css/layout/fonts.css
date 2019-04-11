@@ -7,10 +7,10 @@
 }
 
 @font-face {
-  font-family: 'Open_sans';
+  font-family: 'Open__sans';
   src: url('../../fonts/opensans-light-webfont.woff2') format('woff2'),
     url('../../fonts/opensans-light-webfont.woff') format('woff');
-  font-weight: lighter;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -18,7 +18,7 @@
   font-family: 'Open__sans';
   src: url('../../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
     url('../../fonts/opensans-lightitalic-webfont.woff') format('woff');
-  font-weight: lighter;
+  font-weight: 300;
   font-style: italic;
 }
 
