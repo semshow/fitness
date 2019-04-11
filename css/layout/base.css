@@ -10,10 +10,24 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-weight: normal;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+}
+
+.title {
+    font-family: 'Open__sans', sans-serif;
+    font-size: 49px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
 }
